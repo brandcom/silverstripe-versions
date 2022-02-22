@@ -1,0 +1,24 @@
+{
+    "name": "jbennecker/silverstripe-versions",
+    "license": "MIT",
+    "description": "",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe"
+    ],
+    "require": {
+        "ext-json": "*",
+        "silverstripe/framework": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "jbennecker\\SilverstripeVersions\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/vendor-plugin": true
+        }
+    }
+}
