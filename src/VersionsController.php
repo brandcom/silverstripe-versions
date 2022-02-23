@@ -35,13 +35,12 @@ class VersionsController extends Controller
         }
 
         $versions = [
-            'php' => phpversion(),
+            'php' => PHP_VERSION,
             'cms' => 'Silverstripe CMS',
             'cms_version' => $version,
         ];
 
         echo json_encode($versions);
-
         exit;
     }
 }
